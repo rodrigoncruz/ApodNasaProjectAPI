@@ -101,3 +101,15 @@ background-position: center;
     margin-top: 10px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #000;
+}
+
+.footer p {
+    font-weight: bolder;
+    color: #fff;
+
+}
+
