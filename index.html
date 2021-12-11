@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Projeto APOD - NASA</title>
+</head>
+<body>
+    <header>
+        <div class="top-black">
+            <img class="logo" src="img/nasa-logo.png" alt="logotipo Nasa">
+            <h1>Astronomy Picture of the Day</h1>
+        </div>
+    </header>
+    <section class="background">
+        <div class="grid">
+            <input type="date" name="date" id="date">
+            <input type="button" value="Buscar" id="search" onclick="searchSpace()">
+        </div>
+        <article class="grid">
+            <div class="box-3">
+                <h2 id="titulo">Título da imagem</h2>
+            </div>
+        </article>
+        <article class="grid">
+            <div class="box-1">
+                <img id="img" src="img/principal.png" alt="img">
+            </div>
+        </article>
+        <article class="grid">
+            <div class="box-2">
+                <p id="text">Especificações da imagem</p>
+            </div>
+        </article>
+    </section>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
